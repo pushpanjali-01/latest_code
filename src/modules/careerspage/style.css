@@ -1,0 +1,244 @@
+.career_banner_image {
+    background-image: url("../../asserts/images/career_banner.svg");
+    width: 100%;
+    height: 650px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+.career_btn {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.subsection-career-location {
+    height: 650px;
+    padding-top: 120px;
+}
+
+.career_banner {
+    padding-top: 60px;
+    width: 100%;
+}
+
+.subsection-banner2 {
+    height: 650px;
+}
+
+.subsection-card {
+    height: 650px;
+    text-align: center;
+}
+
+.careers-section1 {
+    text-align: justify;
+}
+
+.career_banner2 img {
+    width: 100%;
+}
+
+.card_ui {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.sub-heading_career {
+    font-size: 25px;
+    font-weight: 500;
+    color: #696969;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.input_field {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.input_field input {
+    width: 87%;
+    height: 55px;
+    border-radius: 32px;
+    background-color: #e9ebea;
+    border-color: transparent;
+    padding-left: 45px;
+}
+
+.experience1 {
+    padding-top: 3%;
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: justify;
+    padding-left: 125px;
+}
+
+.experience {
+    padding-top: 3%;
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 125px;
+}
+
+.desig {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.exp {
+    font-size: 30px;
+    color: #696969;
+}
+
+.viewbtn button {
+    width: 160px;
+    background-color: #0eb162;
+    border-radius: 33px;
+    height: 60px;
+    color: white;
+    border: #0eb162;
+    margin-top: 42px;
+}
+
+.viewbtn1 button {
+    width: 160px;
+    background-color: #0eb162;
+    border-radius: 33px;
+    height: 60px;
+    color: white;
+    border: #0eb162;
+    margin-top: 42px;
+}
+
+.divider_line {
+    width: 93%;
+    height: 1px;
+    background: rgb(223, 221, 221);
+    /* padding-left: 57px; */
+    margin-left: 36px;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #696969;
+    font-weight: bold;
+}
+
+.viewbtn {
+    text-align: justify;
+}
+
+.viewbtn1 {
+    text-align: justify;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .career_banner_image {
+        height: auto;
+    }
+
+    .career_btn {
+        height: 20vh;
+    }
+
+    .experience {
+        padding-left: 9%;
+        padding-top: 3%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .viewbtn button {
+
+        margin-top: 0px;
+    }
+
+    .viewbtn {
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .card {
+        box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 50%);
+    }
+
+    .sub-heading_career {
+        font-size: 16px;
+    }
+
+    .input_field input {
+        width: 93%;
+        font-size: 20px;
+    }
+
+    .desig {
+        font-size: 20px;
+    }
+
+    .exp {
+        font-size: 20px;
+    }
+
+    .experience1 {
+        padding-left: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+
+    .viewbtn1 {
+        text-align: center;
+    }
+
+    .viewbtn1 button {
+        margin-top: 22px
+    }
+
+    .card_container {
+        height: auto;
+        padding-top: 60px;
+    }
+
+    .divider_line {
+        width: 93%;
+        height: 1px;
+        background: grey;
+        margin-left: 13px;
+        margin-top: 30px;
+    }
+
+    .career_banner {
+        padding-top: 55px;
+    }
+
+    .subsection-career-location {
+        height: auto;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .subsection-banner2 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .subsection-card {
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

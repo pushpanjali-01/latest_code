@@ -1,0 +1,117 @@
+.FAQ_banner{
+    background-color: #e8f7ef;
+    height: 586px;
+    text-align: center;
+    font-size: 90px;
+    padding-top: 91px;
+   
+}
+.FAQS{
+    height: 600px;
+}
+.Fqasection{
+    padding-top: 30px;
+}
+.section_head{
+    padding-top: 30px;
+}
+.FAQ_banner img{
+    width: 300px;
+    border-radius: 10px;
+}
+.Faqs{
+    padding-left: 70px;
+    padding-right: 90px;  
+    padding-bottom: 20px;  
+    display: flex;
+    justify-content: space-between;
+}
+.Faqs-top{
+    padding-left: 70px;
+    padding-right: 90px;  
+    padding-bottom: 20px;  
+    display: block;
+    justify-content: space-between;
+    border-top: 1px solid #9B9B9B;
+}
+.Faqs_border{
+    padding-left: 70px;
+    padding-right: 90px;
+    border-top: 1px solid #9B9B9B;
+    padding-bottom: 50px;
+}
+.head_card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.divides{
+    background-color: gray;
+    height: 1px;
+}
+.player-wrapper
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+    height: 500px;
+  }
+  .play_card{
+    height: 500px;
+  }
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .drop-down img{
+    width: 30px;
+  }
+  .drop-down{
+    text-align: end;
+    padding-top: 35px;
+  }
+  
+.header_faq{
+    display: flex;
+    justify-content: space-between;
+}
+
+  @media (min-width: 320px) and (max-width:480px){
+    .FAQS{
+        height: auto;
+    }
+    .FAQ_banner{
+        height: auto;
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+    .card{
+        height: auto;
+    }
+    .play_card{
+        height: 165px;
+    }
+    .Faqs {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        display: flex;
+    }
+    .Faqs-top{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        display: block;
+    }
+    .Faqs_border{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .drop-down img{
+        width: 18px;
+      }
+      .drop-down{
+        /* text-align: end; */
+        padding-top: 15px;
+      }
+    
+  }

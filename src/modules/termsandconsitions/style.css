@@ -1,0 +1,51 @@
+.terms_banner {
+
+    height: 540px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-weight: bold;
+    padding-top: 45px;
+}
+
+.terms_banner img {
+    width: 20%;
+    background-color: transparent;
+    border-radius: 12px;
+}
+.subsection-terms{
+    padding-top: 30px;
+}
+.terms{
+    height: 650px;
+    padding-top: 60px;
+    background-color: #e8f7ef;
+}
+.terms-section{
+    text-align: justify;
+    justify-content: left;
+}
+.main_heading {
+    font-size: 3.125rem;
+    font-weight: bold;
+    text-align: left;
+    /* padding-top: 40px; */
+}
+@media (min-width: 320px) and (max-width:480px){
+    .terms{
+        height: auto;
+    }
+    .main_heading{
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    .terms_banner{
+        font-size: 24px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .subsection-terms{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

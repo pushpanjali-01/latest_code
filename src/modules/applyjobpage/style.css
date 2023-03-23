@@ -1,0 +1,135 @@
+.card_details {
+    display: flex;
+}
+
+.labelfield {
+    font-size: 30px;
+    color: #696969;
+
+}
+
+.cv-labelfield {
+    font-size: 30px;
+    color: #696969;
+
+}
+
+.text-labelfield {
+    font-size: 30px;
+    color: #696969;
+
+}
+
+.job-rows {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+}
+
+.inputfields input {
+    width: 100%;
+    border: 0.5px solid #C3CDCB;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #9C9C9C;
+
+}
+
+.text-area input {
+    width: 100%;
+    border: 0.5px solid #C3CDCB;
+    height: 100px;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    color: #9C9C9C;
+    font-size: 16px;
+
+}
+
+.cv-input input {
+    width: 100%;
+    height: 50px;
+    color: #696969;
+    font-size: 16px;
+    /* box-shadow: 2px 2px 4px 2px #00000040 inset; */
+
+}
+
+.cv-text {
+    color: #696969;
+    font-size: 16px;
+}
+
+.submit_button {
+    text-align: center;
+}
+
+.submit_button button {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.applyjob-section {
+    padding-top: 65px;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .job-rows {
+        display: flex;
+        /* gap: 20px; */
+        align-items: center;
+        padding-left: 15px;
+        padding-bottom: 0px;
+        justify-content: space-around;
+    }
+
+    .labelfield {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .inputfields input {
+        height: 35px;
+    }
+
+    .text-area ::placeholder {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .cv-input {
+        padding-left: 55px;
+        padding-right: 15px;
+    }
+
+    .submit_button {
+        margin-bottom: 30px;
+    }
+
+    .divider_line {
+        width: 88%;
+        margin-left: 20px;
+    }
+
+    .cv-labelfield {
+        padding-left: 15px;
+        font-size: 16px;
+    }
+
+    .text-labelfield {
+        font-size: 16px;
+    }
+    .applyjob-section {
+        padding-top: 0px;
+    }
+    
+
+}

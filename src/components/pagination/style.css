@@ -1,0 +1,19 @@
+.active>.page-link,
+.page-link.active {
+    background-color: #3ec080;
+}
+
+.text-aign {
+    text-align: center;
+}
+
+.css-wjh20t-MuiPagination-ul {
+    justify-content: center;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    color:
+        #16B061;
+    background-color: none;
+    font-weight: bold;
+}

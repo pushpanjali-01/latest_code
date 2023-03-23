@@ -1,0 +1,106 @@
+.footer-section {
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 600px;
+}
+
+.footer_logo {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.footer-left-section {
+    text-align: left;
+}
+
+.footer-heading-white {
+    font-size: 18px;
+    color:  rgb(177, 173, 173);
+}
+
+.footer-right-section {
+    text-align: left;
+}
+
+.footer-sub-heading {
+    font-size: 16px;
+    color:  rgb(71, 70, 70);
+}
+
+.footer-list ul {
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 0px;
+    color:rgb(71, 70, 70);
+}
+
+.footer-list ul a {
+    text-decoration: none;
+    color: #9B9B9B;
+}
+
+.divider {
+    width: 100%;
+    background-color: rgb(49, 47, 47);
+    height: 1px;
+    margin-top: 15px;
+}
+.footer-copy-right{
+    text-align: left;
+    color: rgb(71, 70, 70);
+}
+.footer-country{
+    text-align: end;
+    color: rgb(71, 70, 70);
+}
+.footer-down-section{
+    padding-top: 20px;
+}
+.company-info1{
+    display: flex;
+}
+.company-info2{
+    display: flex;
+}
+.socilaMedia img{
+    margin-right: 20px;
+}
+.footer-column{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 320px) and (max-width:480px){
+    .footer-heading-white{
+        font-size: 14px;
+    }
+    .footer-sub-heading{
+        font-size: 13px;
+    }
+    .footer-list ul {
+        font-size: 15px;
+    }
+    .footer-section{
+        height: auto;
+        padding-bottom: 0px;
+    }
+    .company-info2{
+        margin-top: 30px;
+    }
+    .footer-copy-right{
+        font-size: 10px;
+    }
+    .footer-country{
+        font-size: 10px;
+    }
+    .footer_logo{
+        padding-bottom: 30px;
+    }
+    .footer_logo img{
+        width: 65px;
+    }
+    .footer-section{
+        padding-top:30px ;
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,269 @@
+.banner-image {
+    width: 100%;
+    background-image: url("../../asserts/images/deliver.svg");
+    height: 650px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.aboutUs_banner {
+    width: 100%;
+    height: 650px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
+
+.subsection-aboutUs {
+    height: 650px;
+}
+
+.profile-section {
+    height: 670px;
+    padding-top: 20px;
+}
+
+
+
+
+.aboutus_btn {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.subsection-aboutus {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 700px;
+}
+
+/* .aboutus_row {
+    float: right;
+} */
+.aboutus_row {
+    width: 100%;
+}
+
+/* .section-heading-dark {
+    font-size: 3.125rem;
+    color: #000;
+    font-weight: bold;
+    line-height: 70px;
+} */
+
+.aboutUs-left-section {
+    text-align: justify;
+}
+
+.aboutUs-right-section {
+    display: flex;
+    /* text-align: end; */
+    justify-content: end;
+    align-items: end;
+}
+
+.under {
+    width: 135px;
+    height: 5px;
+    background-color: #0eb162;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+.grocery_image img {
+    width: 80%;
+    height: 540px;
+}
+
+.groc img {
+    width: 100%;
+}
+
+.section-sub-heading-light-aboutUs {
+    font-size: 21px;
+    color: #9B9B9B;
+}
+
+.section-sub-heading-light-aboutUs-width {
+    font-size: 21px;
+    color: #9B9B9B;
+    width: 100%;
+}
+
+.left-shared {
+    text-align: justify;
+}
+
+.right-shared {
+    text-align: justify;
+}
+
+.aboutUs-heading {
+    text-align: left;
+}
+
+.aboutUs-sub-heading {
+    padding-top: 30px;
+}
+
+.section-heading-green {
+    font-size: 55px;
+    color: #0eb162;
+}
+
+.Grocery_delivery img {
+    width: 100%;
+}
+
+.profiless {
+    display: block;
+}
+
+.profile_row {
+    text-align: center;
+}
+
+.profile_Image img {
+    width: 53%;
+    height: 180px;
+}
+
+.name_designation {
+    text-align: justify;
+    font-size: 17px;
+    margin-left: 95px;
+    padding-bottom: 15px;
+}
+
+.name_heading {
+    font-weight: 700;
+}
+
+.aboutUs-dark-button button {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    /* font-weight: bold; */
+    /* font-size: 24px; */
+}
+
+.aboutUs-banner-left-setion {
+    text-align: left;
+    padding-top: 170px;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+
+    .section-sub-heading-light-aboutUs-width {
+        /* width: 345px; */
+        font-size: 16px;
+    }
+
+    /* .grocery_image img {
+        width: 315px;
+    } */
+
+    .banner-image {
+        height: 200px;
+    }
+
+    .banner-image {
+        width: 100%;
+        background-image: url("../../asserts/images/deliver.svg");
+        /* height: 650px; */
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .banner-sec {
+        height: auto;
+    }
+
+    .career_btn {
+        height: 25vh;
+    }
+
+    .aboutUs-dark-button button {
+        width: 100px;
+        height: 35px;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+    }
+
+    .section-sub-heading-light-aboutUs {
+        font-size: 16px;
+    }
+
+    .under {
+        width: 75px;
+        margin-bottom: 20px;
+        margin-top: -5px;
+    }
+
+    .two-section {
+        gap: 30px;
+    }
+
+    .section-heading-green {
+        font-size: 30px;
+    }
+
+    .profiless {
+        display: flex;
+    }
+
+    .name_designation {
+        text-align: center;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .profile_Image img {
+        width: 125px;
+        height: 125px;
+    }
+
+    .aboutus_btn {
+        height: 25vh;
+    }
+
+    .grocery_image img {
+        height: 400px;
+    }
+
+    .subsection-aboutus {
+        height: auto;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .aboutUs-banner-left-setion {
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .aboutUs_banner {
+        padding-top: 55px;
+        padding-bottom: 0px;
+        height: auto;
+    }
+
+    .subsection-aboutUs {
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .profile-section {
+        height: auto;
+    }
+
+}

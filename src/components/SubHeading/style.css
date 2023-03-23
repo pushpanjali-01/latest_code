@@ -1,0 +1,12 @@
+.sub_heading_Faqs{
+    font-size: 24px;
+    color:#9B9B9B;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width:480px){
+    .sub_heading_Faqs{
+        font-size: 12px;
+    }
+}

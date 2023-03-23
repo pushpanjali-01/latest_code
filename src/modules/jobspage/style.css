@@ -1,0 +1,143 @@
+.jobs-banner{
+    height: 600px;
+    padding-top: 60px;
+}
+.banner-image-jobpage{
+    text-align: center;
+    padding-top: 155px;
+}
+.banner-image-jobpage img{
+    width: 50%;
+}
+.experi{
+    display: flex;
+    gap:25px;
+    align-items: baseline;
+    font-size: 20px;
+}
+.experi img{
+    width: 25px;
+}
+.details{
+        display: flex;
+        gap:5px;
+        padding-left: 135px;
+}
+.colum1{
+    padding-top: 40px;
+}
+.colum2{
+    padding-top: 40px;
+}
+.viewjobs button{
+    width: 180px;
+    background-color: #0eb162;
+    border-radius: 33px;
+    height: 50px;
+    color: white;
+    border: #0eb162;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.arrow{
+    width: 15px;
+    padding-left: 8px;
+}
+.jobs_heading{
+    font-size: 45px;
+    color: #696969;
+    font-weight: 400;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+.type{
+    font-size: 24px;
+    font-weight: bold;
+}
+.sector{
+    font-size: 24px;
+}
+.job_description ul{
+    font-size: 24px;
+    color:#696969;
+    text-align: justify;
+}
+.job_description ul li{
+    padding-top: 25px;
+}
+.job_desc{
+    padding-top: 40px;
+    height: 800px;
+}
+.jobs_subheading{
+    font-size: 45px;
+    color: #696969;
+    font-weight: 400;
+    /* padding-bottom: 40px; */
+    text-align: center;
+}
+.job-section{
+    padding-top: 60px;
+    /* padding-bottom: 60px; */
+    height: 440px;
+    text-align: center;;
+}
+
+.pagination{
+    /* display: inline-flex; */
+    justify-content: center;
+
+}
+@media (min-width: 320px) and (max-width:480px){
+    .job_desc{
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .jobs-banner {
+        height: auto;
+        padding-top: 0px;
+    }
+    .jobs_heading{
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+    .job-section{
+        height: auto;
+    }
+    .jobs_subheading{
+        font-size: 30px;
+    }
+    .job_description ul{
+        font-size: 20px;
+    }
+    .job-section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .colum1{
+        padding-top: 15px;
+        border-bottom: 1px solid  #9B9B9B;
+    }
+    .vertical_divider{
+        display: none;
+    }
+    .details{
+        padding-left: 10px;
+    }
+    .type{
+        font-size: 20px;
+    }
+    .sector{
+        font-size: 20px;
+    }
+    .viewjobs button{
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .banner-image-jobpage{
+        padding-top: 100px;
+    }
+    
+}

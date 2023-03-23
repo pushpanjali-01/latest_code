@@ -1,0 +1,42 @@
+.banner img {
+    margin-top: 16px;
+    width: 100%;
+    height: 30vw;
+    background-color: white;
+    border-radius: 0px;
+
+}
+
+.banner {
+    height: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+}
+
+.Review {
+    display: flex !important;
+    gap: 30px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (min-width: 320px) and (max-width:480px){
+    .Review{
+        display: block !important;
+    }
+    .Image_profile{
+        justify-content: center;
+        display: flex;
+    }
+    .Review{
+        padding-top: 0px;
+    }
+}

@@ -1,0 +1,68 @@
+.privacy_banner {
+    background-color: #e8f7ef;
+    height: 540px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-weight: bold;
+    padding-top: 45px;
+}
+
+.privacy_banner img {
+    width: 16%;
+    background-color: transparent;
+    border-radius: 12px;
+}
+
+.sub_h ul li {
+    padding-top: 25px;
+}
+
+.privacy {
+    padding-top: 60px;
+    height: 600px;
+}
+
+.section_privacy {
+    padding-top: 27px;
+}
+
+.main_heading_privacy {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.sub_heading_privacy {
+    font-size: 24px;
+    color: #9B9B9B;
+    text-align: justify;
+}
+.privacy-section{
+    text-align: justify;
+}
+@media (min-width: 320px) and (max-width:480px) {
+    .privacy_banner {
+        font-size: 24px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .privacy {
+        padding-top: 60px;
+        height: auto;
+    }
+
+    .sub_heading_privacy {
+        font-size: 21px;
+    }
+
+    .main_heading_privacy {
+        font-size: 25px;
+    }
+
+    .privacy-section {
+        text-align: justify;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
