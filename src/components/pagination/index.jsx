@@ -35,7 +35,7 @@ function Paginationpage() {
                         <div className='jobs_heading'>
                             <p>Job Details</p>
                         </div>
-                        <Row>
+                        <Row >
                             <Col md={5} className="colum1">
                                 <Row>
                                     <div className='experi'>

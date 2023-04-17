@@ -32,7 +32,6 @@
     color: #000;
     font-weight: bold;
     line-height: 70px;
-    /* text-align: center; */
 }
 
 .section-sub-heading-dark {
@@ -52,8 +51,6 @@
     border-radius: 8px;
     background-color: black;
     color: white;
-    /* font-weight: bold; */
-    /* font-size: 24px; */
 }
 
 .dark-button {
@@ -211,7 +208,7 @@
 }
 
 .shaded-circle2 {
-    background-color: #fceeef;
+    background-color: #faf6f6;
     height: 150px;
     border-radius: 100%;
     width: 150px;
@@ -243,11 +240,6 @@
     font-size: 20px;
     color: #009FF9;
 }
-
-/* .Reviews {
-    display: flex;
-    gap: 30px;
-} */
 
 
 .Image_profile {
@@ -292,7 +284,12 @@
     .inner-circle {
         width: 285px;
         height: 285px;
-        /* margin-left: 15px; */
+    }
+
+    .dark-button button {
+        width: 155px;
+        height: 40px;
+        font-size: 14px;
     }
 
     .outer-section {
@@ -411,7 +408,7 @@
     }
 
     .section-sub-heading-light {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .Images-row {
@@ -430,49 +427,59 @@
 
     .right-sub-heading-light {
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .location-list ul {
-        float: left;
-        gap: 100px;
+        float: initial;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .main-heading-dark {
         font-size: 30px;
         color: black;
         font-weight: bold;
-        line-height: 30px;
+        line-height: 40px;
     }
 
     .review-row {
         width: 300px;
         margin-left: 20px;
     }
-    .props-images img{
+
+    .props-images img {
         width: 20%;
     }
-    .shaded-circle1{
+
+    .shaded-circle1 {
         width: 120px;
         height: 120px;
     }
-    .shaded-circle1 img{
+
+    .shaded-circle1 img {
         width: 60px;
         padding-top: 30px;
     }
-    .shaded-circle2{
+
+    .shaded-circle2 {
         width: 120px;
         height: 120px;
     }
-    .shaded-circle2 img{
+
+    .shaded-circle2 img {
         width: 60px;
         padding-top: 30px;
     }
-    .shaded-circle3{
+
+    .shaded-circle3 {
         width: 120px;
         height: 120px;
     }
-    .shaded-circle3 img{
+
+    .shaded-circle3 img {
         width: 60px;
         padding-top: 30px;
     }

@@ -74,21 +74,23 @@
     font-size: 45px;
     color: #696969;
     font-weight: 400;
-    /* padding-bottom: 40px; */
+
     text-align: center;
 }
 .job-section{
     padding-top: 60px;
-    /* padding-bottom: 60px; */
     height: 440px;
     text-align: center;;
 }
 
 .pagination{
-    /* display: inline-flex; */
     justify-content: center;
-
 }
+.css-1oj2twp-MuiPagination-root {
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width: 320px) and (max-width:480px){
     .job_desc{
         height: auto;
@@ -110,7 +112,7 @@
         font-size: 30px;
     }
     .job_description ul{
-        font-size: 20px;
+        font-size: 18px;
     }
     .job-section{
         padding-left: 10px;
@@ -139,5 +141,6 @@
     .banner-image-jobpage{
         padding-top: 100px;
     }
+
     
 }

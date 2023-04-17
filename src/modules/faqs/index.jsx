@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Publish from '../../components/publish';
 import Footer from '../../components/footer';
-import MainHeading from '../../components/MainHeading';
-import SubHeading from '../../components/SubHeading';
 import ReactPlayer from "react-player/youtube";
 import FAQ_banner from "../../asserts/images/FAQ_banner.svg"
 import down from "../../asserts/images/down-chevron.png"

@@ -102,7 +102,7 @@ export default function Aboutuspage() {
           </Row>
         </Container>
       </section>
-      <section className='subsection-gray-shade'>
+      <section className='subsection-gray-shade-aboutus'>
         <Container>
           <Row>
             <Col md={6}>

@@ -16,23 +16,25 @@
 
 .footer-heading-white {
     font-size: 18px;
-    color:  rgb(177, 173, 173);
+    color: rgb(177, 173, 173);
 }
 
 .footer-right-section {
     text-align: left;
+    justify-content: center;
+    display: flex;
 }
 
 .footer-sub-heading {
     font-size: 16px;
-    color:  rgb(71, 70, 70);
+    color: #9c9797;
 }
 
 .footer-list ul {
     list-style-type: none;
     font-size: 20px;
     padding-left: 0px;
-    color:rgb(71, 70, 70);
+    color: #9c9797;
 }
 
 .footer-list ul a {
@@ -46,61 +48,81 @@
     height: 1px;
     margin-top: 15px;
 }
-.footer-copy-right{
+
+.footer-copy-right {
     text-align: left;
     color: rgb(71, 70, 70);
 }
-.footer-country{
+
+.footer-country {
     text-align: end;
     color: rgb(71, 70, 70);
 }
-.footer-down-section{
+
+.footer-down-section {
     padding-top: 20px;
 }
-.company-info1{
+
+.company-info1 {
     display: flex;
 }
-.company-info2{
+
+.company-info2 {
     display: flex;
 }
-.socilaMedia img{
+
+.socilaMedia img {
     margin-right: 20px;
 }
-.footer-column{
+
+.footer-column {
     display: flex;
     justify-content: space-between;
 }
-@media (min-width: 320px) and (max-width:480px){
-    .footer-heading-white{
+
+@media (min-width: 320px) and (max-width:480px) {
+    .footer-heading-white {
         font-size: 14px;
     }
-    .footer-sub-heading{
+
+    .footer-sub-heading {
         font-size: 13px;
     }
+
     .footer-list ul {
         font-size: 15px;
     }
-    .footer-section{
+
+    .footer-section {
         height: auto;
         padding-bottom: 0px;
     }
-    .company-info2{
+
+    .company-info2 {
         margin-top: 30px;
     }
-    .footer-copy-right{
+
+    .footer-copy-right {
         font-size: 10px;
     }
-    .footer-country{
+
+    .footer-country {
         font-size: 10px;
     }
-    .footer_logo{
+
+    .footer_logo {
         padding-bottom: 30px;
     }
-    .footer_logo img{
+
+    .footer_logo img {
         width: 65px;
     }
-    .footer-section{
-        padding-top:30px ;
+
+    .footer-section {
+        padding-top: 30px;
         padding-left: 10px;
+    }
+    .company{
+        margin-right: 30px;
     }
 }

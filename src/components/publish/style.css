@@ -1,5 +1,5 @@
 .heading-small {
-    font-size: 17px;
+    font-size: 18px;
     color: #9B9B9B;
 }
 
@@ -34,6 +34,21 @@
     padding-top: 60px;
     height: 600px;
 }
+.mob1_cover{
+    z-index: 1;
+    position: relative;
+}
+.mob1_inner{
+    position: absolute;
+    height:215px;
+}
+.mob2_cover{
+    z-index: 1;
+    position: relative;
+}
+.mob2_inner{
+    position: absolute;
+}
 
 @media (min-width: 320px) and (max-width:480px) {
     .download_images img {
@@ -44,16 +59,22 @@
         justify-content: center;
         gap: 15px;
     }
-
+.mob2_inner{
+    height:195px !important;
+}
+.mob1_inner{
+    height: 195px !important;
+    margin-top: 155px !important;
+}
     .mobile_up img {
         height: 230px;
         margin-top: 135px;
-        width: 185px;
+        width: 150px;
     }
 
     .mobile_down img {
         height: 210px;
-        width: 170px;
+        width: 150px;
     }
 
     .mobile_down {
@@ -63,8 +84,8 @@
     .mobile_display {
         display: flex;
         margin-top: 20px;
-        padding-left: 10px;
         padding-right: 10px;
+        justify-content: center;
     }
 
     .subsection-publish {

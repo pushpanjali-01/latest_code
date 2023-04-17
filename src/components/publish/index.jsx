@@ -4,6 +4,10 @@ import play_store_download from "../../asserts/images/play_store_download.svg"
 import app_store_download from "../../asserts/images/app_store_download.svg"
 import mobile_up from "../../asserts/images/mobile_up.png"
 import mobile_down from "../../asserts/images/mobile_down.png"
+import mob1_cover from "../../asserts/images/mob1_cover.svg"
+import mob1_inner from "../../asserts/images/mob1_inner.svg"
+import mob2_cover from "../../asserts/images/mob2_cover.svg"
+import mob2_inner from "../../asserts/images/mob2_inner.svg"
 import "./style.css"
 export default function Publish() {
     return (
@@ -40,12 +44,14 @@ export default function Publish() {
                         <Col md={6} className="mobile_display">
                             <Row>
                                 <div className='mobile_down'>
-                                    <img src={mobile_down} alt="" />
+                                    <img src={mob2_inner} alt='' className='mob2_inner' />
+                                    <img src={mob2_cover} alt="" className='mob2_cover' />
                                 </div>
                             </Row>
                             <Row>
                                 <div className='mobile_up'>
-                                    <img src={mobile_up} alt="" />
+                                    <img src={mob1_inner} alt='' className='mob1_inner' />
+                                    <img src={mob1_cover} alt="" className='mob1_cover' />
                                 </div>
                             </Row>
                         </Col>
